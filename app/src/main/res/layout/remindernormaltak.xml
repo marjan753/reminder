@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipeLayout"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:elevation="12dp"
+    android:background="@drawable/cardview_shape2"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout android:gravity="left"
+            android:orientation="horizontal"
+            android:id="@+id/buttonContainer"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+
+                <Button android:id="@+id/buttonEdit"
+                    android:background="@drawable/shape_button_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Edit"/>
+                <Button android:id="@+id/buttonDelete"
+                    android:background="@drawable/shape_button_delete"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Delete"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+            android:orientation="vertical"
+            android:layout_below="@id/buttonContainer"
+   >
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/text_reminderN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="یاداوری"
+            android:textColor="?android:textColorPrimary"
+            android:textAppearance="@style/SubheadlineSemibold15"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="right"
+            android:maxLines="2"
+            android:ellipsize="end">
+
+        </TextView>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_reminderN"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+
+                    >
+
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                            android:src="@drawable/date" />
+
+                        <TextView
+                            android:id="@+id/data_reminderN"
+                            android:layout_width="70dp"
+                            android:layout_height="20dp"
+                            android:inputType="date"
+                            android:textColor="?android:textColorPrimary"
+                            android:layout_toLeftOf="@id/imageView"
+
+                            android:textSize="14sp"/>
+
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/gdate"
+                            android:layout_toLeftOf="@id/data_reminderN"
+                            />
+
+                        <TextView
+                            android:id="@+id/dataG_reminderN"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:inputType="date"
+                            android:textColor="?android:textColorPrimary"
+                            android:layout_toLeftOf="@id/imageView2"
+                            android:layout_marginLeft="16dp"
+                            android:textSize="12sp"
+                            android:singleLine="true"
+                        >
+                            </TextView>
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/clock"
+                            android:id="@+id/imageView3"
+                            android:layout_toLeftOf="@id/dataG_reminderN"
+                            />
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:id="@+id/time_reminderN"
+                            android:inputType="time"
+                            android:layout_toLeftOf="@id/imageView3"
+                            android:textColor="?android:textColorPrimary"
+                            android:textSize="12sp"
+                            ></TextView>
+
+
+
+
+                </RelativeLayout>
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

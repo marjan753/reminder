@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- رنگ پس‌زمینه روشن -->
+    <corners android:radius="12dp" /> <!-- گوشه‌های گرد برای ظاهر بهتر -->
+    <stroke android:width="2dp" android:color="#BF5A5F" /> <!-- حاشیه رنگی برای حالت روشن -->
+</shape>
