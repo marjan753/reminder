@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <item name="colorPrimaryDark">@color/button</item>
+
+
+    </style>
+
+    <style name="SubheadlineSemibold15">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <!-- Add other style attributes if needed -->
+    </style>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">P-reminder</string>
+
+
+    <string name="spinner_hint">نوع تکرار</string>
+
+
+</resources>

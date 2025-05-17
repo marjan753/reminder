@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewReminderNormalActivity"
+    android:id="@+id/linraelayoutasli"
+    android:background="#80FFFFFF"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    >
+   
+
+    <EditText
+        android:id="@+id/new_description_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="متن یادآوری"
+        android:layout_alignParentRight="true"
+        android:layout_margin="40dp"
+        android:background="@drawable/edittextshape"
+        android:lines="2"
+        ></EditText>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_description_normal"
+        android:layout_margin="20dp"
+        android:id="@+id/relativebutton">
+
+        <FrameLayout
+android:id="@+id/framedate"
+            android:layout_width="105dp"
+            android:layout_height="57dp"
+            android:background="@drawable/botton_shape"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="40dp"
+            android:elevation="12dp"
+
+            >
+            <Button
+                android:id="@+id/Pikerpersion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"></Button>
+
+            <ImageView
+
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/datepicker"
+                android:layout_gravity="center"></ImageView>
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/textdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="تاریخ"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_below="@id/framedate"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+
+
+
+
+            />
+        <TextView
+            android:id="@+id/texttest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="تاریخ میلادی"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_below="@id/textdate"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:id="@+id/textdayofweek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="روز هفته"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_below="@id/texttest"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+
+        <FrameLayout
+            android:id="@+id/frametime"
+            android:layout_width="105dp"
+            android:layout_height="57dp"
+            android:background="@drawable/botton_shape"
+            android:elevation="12dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+
+            >
+            <Button
+                android:id="@+id/timepicker"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"></Button>
+
+            <ImageView
+
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/timepicker"
+                android:layout_gravity="center"></ImageView>
+
+        </FrameLayout>
+        <TextView
+            android:id="@+id/texttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ساعت"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:layout_below="@id/frametime"
+            android:layout_marginLeft="70dp"
+          android:layout_marginTop="20dp"
+
+
+            />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"/>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativelayout_repeat"
+            android:layout_below="@id/texttest"
+
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="105dp"
+                android:layout_height="57dp"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:background="@drawable/edittextshape"
+
+                />
+
+            <EditText
+                android:id="@+id/numberRepeat"
+                android:layout_width="105dp"
+                android:layout_height="57dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="left"
+                android:background="@drawable/edittextshape"
+
+                android:hint="تعداد تکرار" />
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    <include layout="@layout/day_repeat"
+        android:visibility="gone"
+        />
+
+    <include layout="@layout/week_repeat"
+        android:visibility="gone"/>
+    <include layout="@layout/month_repeat"
+        android:visibility="gone"/>
+    <include layout="@layout/year_repeat"
+        android:visibility="gone"/>
+
+    <include layout="@layout/dayofweek_repeat"
+        android:visibility="gone"
+        />
+
+
+    <Button
+        android:id="@+id/add_new_normal"
+        android:layout_width="244dp"
+        android:layout_height="56dp"
+        android:hint="ثبت یادآوری"
+        android:layout_gravity="center"
+        android:background="@drawable/shapaddnewreminder"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+
+        ></Button>
+
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

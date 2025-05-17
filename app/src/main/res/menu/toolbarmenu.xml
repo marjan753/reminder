@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/chose_alarm"
+        android:icon="@drawable/choose_sound"
+        android:title=" انتخاب آلارم" />
+
+    <item
+        android:id="@+id/save_data"
+        android:icon="@drawable/save"
+        android:title="ذخیره کردن اطلاعات" />
+    <item
+        android:id="@+id/backup_data"
+        android:icon="@drawable/backup"
+        android:title="برگرداندن اطلاعات" />
+
+
+
+
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/about_us"
+        android:title="درباره برنامه" />
+    <item
+        android:id="@+id/call_us"
+        android:icon="@drawable/call_us"
+        android:title="تماس با ما" />
+
+
+
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/share"
+                    android:title="اشتراک برنامه"
+                    />
+                <item
+                    android:id="@+id/emtiyaz"
+                    android:icon="@drawable/googleplay"
+                    android:title="امتیاز" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>
