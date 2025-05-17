@@ -1,0 +1,21 @@
+# Android Studio files
+.idea/
+*.iml
+
+# Gradle files
+.gradle/
+build/
+local.properties
+*.log
+
+# Keystore files
+*.jks
+
+# Generated files
+captures/
+output.json
+
+# Ignore wrapper logs and distribution cache
+gradle/wrapper/
+gradle/caches/
+
