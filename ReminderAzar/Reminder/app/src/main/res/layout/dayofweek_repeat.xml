@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/dayofweek_repeat"
+    android:layout_marginRight="60dp"
+    android:layoutDirection="rtl">
+
+    <CheckBox
+        android:id="@+id/shanbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="شنبه ها"
+
+
+        />
+
+    <CheckBox
+        android:id="@+id/yekshanbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="یکشنبه ها"
+      />
+
+    <CheckBox
+        android:id="@+id/doshanbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="دوشنبه ها"
+       />
+
+    <CheckBox
+        android:id="@+id/seshanbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سه شنبه ها"
+       />
+
+    <CheckBox
+        android:id="@+id/chaharshanbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="چهارشنبه ها"
+       />
+
+    <CheckBox
+        android:id="@+id/panjshanbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="پنجشنبه ها"
+     />
+
+    <CheckBox
+        android:id="@+id/jomee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جمعه ها"
+      />
+
+
+
+
+</LinearLayout>

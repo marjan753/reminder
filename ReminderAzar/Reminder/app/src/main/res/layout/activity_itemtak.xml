@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Itemtak"
+    android:orientation="vertical"
+
+
+  >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="1dp"
+        android:elevation="10dp">
+
+
+    <ImageView
+        android:id="@+id/img_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_item"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+
+
+
+       />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+            <TextView
+                android:id="@+id/text_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="یاداوری"
+                android:textColor="?android:textColorPrimary"
+                android:textAppearance="@style/SubheadlineSemibold15"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:textDirection="rtl"
+android:background="@drawable/border_textview"
+                >
+
+            </TextView>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentRight="true"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/date" />
+
+                <TextView
+                    android:id="@+id/data_item"
+                    android:layout_width="70dp"
+                    android:layout_height="20dp"
+                    android:inputType="date"
+                    android:textColor="?android:textColorPrimary"
+                    android:layout_toLeftOf="@id/imageView"
+
+                    android:textSize="14sp"/>
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/gdate"
+                    android:layout_toLeftOf="@id/data_item"
+                    />
+
+                <TextView
+                    android:id="@+id/dataG_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:inputType="date"
+                    android:textColor="?android:textColorPrimary"
+                    android:layout_toLeftOf="@id/imageView2"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="12sp"
+                    android:singleLine="true"></TextView>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/clock"
+                    android:id="@+id/imageView3"
+                    android:layout_toLeftOf="@id/dataG_item"
+                    />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/time_item"
+                    android:inputType="time"
+                    android:layout_toLeftOf="@id/imageView3"
+                    android:textColor="?android:textColorPrimary"
+                    android:textSize="12sp"
+                    ></TextView>
+
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
