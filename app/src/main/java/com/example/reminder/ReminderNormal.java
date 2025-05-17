@@ -6,9 +6,12 @@ public class ReminderNormal {
     private String date;
     private String dateGregorian;
     private String time;
+<<<<<<< HEAD
     private int kindofrepeat;
     private int numberrepeat;
     private int repeat_id;
+=======
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
 
 
 
@@ -23,6 +26,7 @@ public class ReminderNormal {
 
 
 
+<<<<<<< HEAD
     public ReminderNormal(String description2, String date2, String dateGregorian2, String time2, int repeat_id2, int kindofrepeat2, int numberrepeat2) {
         this.description = description2;
         this.date = date2;
@@ -37,6 +41,8 @@ public class ReminderNormal {
 
 
 
+=======
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
     public ReminderNormal(int id,String description,String date,String dateGregorian,String time) {
 
         this.description = description;
@@ -90,6 +96,7 @@ public class ReminderNormal {
     }
 
 
+<<<<<<< HEAD
     public int getKindofrepeat() {
         return kindofrepeat;
     }
@@ -113,5 +120,8 @@ public class ReminderNormal {
     public void setRepeat_id(int repeat_id) {
         this.repeat_id = repeat_id;
     }
+=======
+
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
 }
 

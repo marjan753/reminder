@@ -18,7 +18,11 @@
 
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
+<<<<<<< HEAD
 #-renamesourcefileattribute SourceFile
 
 
 -keep class android.support.v7.**
+=======
+#-renamesourcefileattribute SourceFile
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221

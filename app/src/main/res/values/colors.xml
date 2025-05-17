@@ -4,6 +4,11 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_activity">#F5F5F5</color>
+<<<<<<< HEAD
+=======
+    <color name="cardview_coloor">#24087E8B</color>
+    <color name="cardview_coloor2">#E5E5E5</color>
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
     <color name="button">#BF5A5F</color>
 
 

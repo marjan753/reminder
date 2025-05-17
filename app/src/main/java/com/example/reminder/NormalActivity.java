@@ -92,9 +92,12 @@ public class NormalActivity extends AppCompatActivity  {
 
         emptyTextView = findViewById(R.id.emptyTextView);
 
+<<<<<<< HEAD
 
         recyclerView = (RecyclerView) findViewById(R.id.my_recycler_normal);
 
+=======
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         // Set click listeners for the search and menu buttons
@@ -105,14 +108,22 @@ public class NormalActivity extends AppCompatActivity  {
             showPermissionAlertDialog();
         }
 
+<<<<<<< HEAD
       /*  if (!Settings.canDrawOverlays(NormalActivity.this)) {
+=======
+        if (!Settings.canDrawOverlays(NormalActivity.this)) {
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
             // "Appear on top" permission is not granted, request it
             showOverlayPermissionExplanation();
         } else {
             // Permission is already granted, continue with your app's logic
         }
 
+<<<<<<< HEAD
         checkAndRequestAutostartPermission();*/
+=======
+        checkAndRequestAutostartPermission();
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
 
 
         searchEditText = toolbar.findViewById(R.id.searchEditText);
@@ -203,8 +214,13 @@ public class NormalActivity extends AppCompatActivity  {
                     case R.id.share:
                         Intent shareIntent = new Intent(Intent.ACTION_SEND);
                         shareIntent.setType("text/plain");
+<<<<<<< HEAD
                         shareIntent.putExtra(Intent.EXTRA_SUBJECT, "اپ یادآوری شمسی'reminder_P' ");
                         shareIntent.putExtra(Intent.EXTRA_TEXT, "http://cafebazaar.ir/app/?id=com.persianreminder_mb_&ref=share");
+=======
+                        shareIntent.putExtra(Intent.EXTRA_SUBJECT, "Check out this app!");
+                        shareIntent.putExtra(Intent.EXTRA_TEXT, "I found this amazing app. You should check it out!");
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
 
                         // Start the activity to show the sharing options
                         startActivity(Intent.createChooser(shareIntent, "Share via"));
@@ -218,11 +234,19 @@ public class NormalActivity extends AppCompatActivity  {
 
                         try {
                             startActivity(new Intent(Intent.ACTION_VIEW,
+<<<<<<< HEAD
                                     Uri.parse("http://cafebazaar.ir/app/?id=com.persianreminder_mb_&ref=share" + appPackageName)));
                         } catch (android.content.ActivityNotFoundException e) {
                             // If Google Play Store app is not installed on the device, open a web browser
                             startActivity(new Intent(Intent.ACTION_VIEW,
                                     Uri.parse("http://cafebazaar.ir/app/?id=com.persianreminder_mb_&ref=share" + appPackageName)));
+=======
+                                    Uri.parse("market://details?id=" + appPackageName)));
+                        } catch (android.content.ActivityNotFoundException e) {
+                            // If Google Play Store app is not installed on the device, open a web browser
+                            startActivity(new Intent(Intent.ACTION_VIEW,
+                                    Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
                         }
                         break;
                 }
@@ -237,6 +261,7 @@ public class NormalActivity extends AppCompatActivity  {
 
 
 
+<<<<<<< HEAD
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL, false));
         dbHelper = new NormalRemindersDatabaseHelper(this);
@@ -245,6 +270,20 @@ public class NormalActivity extends AppCompatActivity  {
         adapter= new AdaptorReminderNormal(this, newNormalReminders);
 
         recyclerView.setAdapter(adapter);
+=======
+        recyclerView = findViewById(R.id.my_recycler_normal);
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(NormalActivity.this, LinearLayoutManager.VERTICAL, false));
+
+        dbHelper = new NormalRemindersDatabaseHelper(this);
+        // dbHelper.scheduleAlarmsFromDatabase(NormalActivity.this);
+
+        newNormalReminders= dbHelper.getAllReminders();
+
+
+        adapter = new AdaptorReminderNormal(this,newNormalReminders);
+       recyclerView.setAdapter(adapter);
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
 
 
 
@@ -333,9 +372,13 @@ public class NormalActivity extends AppCompatActivity  {
                 filteredReminders.add(reminder);
             }
         }
+<<<<<<< HEAD
         Log.d("Debug4", "RecyclerView: " + recyclerView);
         Log.d("Debug4", "EmptyTextView: " + emptyTextView);
         Log.d("Debug4", "NewNormalReminders size: " + (newNormalReminders != null ? newNormalReminders.size() : "null"));
+=======
+
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
         // Update the RecyclerView with the filtered reminders
         adapter = new AdaptorReminderNormal(this, filteredReminders);
         recyclerView.setAdapter(adapter);
@@ -539,7 +582,11 @@ public class NormalActivity extends AppCompatActivity  {
     }
 
 
+<<<<<<< HEAD
    /* private void showOverlayPermissionExplanation() {
+=======
+    private void showOverlayPermissionExplanation() {
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
         new AlertDialog.Builder(this)
                 .setTitle("مجوز لازم")
                 .setMessage("این برنامه برای عملکرد صحیح به مجوز 'ظاهر شدن'نیاز دارد این مجوز را اعطا کنید.")
@@ -605,7 +652,11 @@ public class NormalActivity extends AppCompatActivity  {
             }
         });
         builder.show();
+<<<<<<< HEAD
     }*/
+=======
+    }
+>>>>>>> 77aff04ef85fb5482cb1dc970a147d9a39d00221
 
     private void openAutostartSettings() {
         Intent autostartIntent = new Intent();
