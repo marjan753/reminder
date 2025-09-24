@@ -32,14 +32,8 @@ This app helps you organize your daily, weekly, monthly, and yearly tasks with f
 - 📝 امکان افزودن، ویرایش و حذف آسان کارها  
 - ☁️ **پشتیبان‌گیری و بازیابی** اطلاعات برای حفظ امنیت داده‌ها  
 - 🎨 رابط کاربری ساده و کاربرپسند
-## 📸 Screenshots
-
-![Screenshot 1](https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B2%DB%B9-%DB%B1%DB%B6-%DB%B4%DB%B7%DB%B4_com.persianreminder_mb_.jpg?raw=true)
-
-![Screenshot 2](https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B2%DB%B9-%DB%B2%DB%B0-%DB%B8%DB%B7%DB%B6_com.persianreminder_mb_.jpg?raw=true)
-
-![Screenshot 3](https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B2%DB%B9-%DB%B3%DB%B8-%DB%B7%DB%B2%DB%B0_com.persianreminder_mb_.jpg?raw=true)
-
-![Screenshot 4](https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B2%DB%B9-%DB%B5%DB%B0-%DB%B4%DB%B1%DB%B6_com.persianreminder_mb_.jpg?raw=true)
-
-![Screenshot 5](https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B3%DB%B1-%DB%B1%DB%B7-%DB%B4%DB%B2%DB%B6_com.persianreminder_mb_.jpg?raw=true)
+<p align="center">
+  <img src="https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B2%DB%B9-%DB%B1%DB%B6-%DB%B4%DB%B7%DB%B4_com.persianreminder_mb_.jpg?raw=true" width="200">
+  <img src="https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B2%DB%B9-%DB%B2%DB%B0-%DB%B8%DB%B7%DB%B6_com.persianreminder_mb_.jpg?raw=true" width="200">
+  <img src="https://github.com/marjan753/reminder/blob/main/Screenshot_%DB%B2%DB%B0%DB%B2%DB%B5-%DB%B0%DB%B5-%DB%B2%DB%B7-%DB%B1%DB%B8-%DB%B2%DB%B9-%DB%B3%DB%B8-%DB%B7%DB%B2%DB%B0_com.persianreminder_mb_.jpg?raw=true" width="200">
+</p>
